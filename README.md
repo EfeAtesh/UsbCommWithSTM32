@@ -3,4 +3,10 @@ Android Usb Communication with STM32 Virtual Board using Android Studio with Jav
 
 This code will allow you to use comm with no need to 3rd party libraries, just native methodologies used
 
-Codes will be released after 21th April 2025
+# Requirements
+Android Studio
+
+# Installation Guide
+
+This guide will be about copying snippets provided to your code. Since Java is oop you don't need to worry about placement of codes
+
