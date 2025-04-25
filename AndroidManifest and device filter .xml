@@ -1,0 +1,25 @@
+// in manifest
+
+ <uses-feature android:name="android.hardware.usb.host" />
+    <uses-permission android:name="android.permission.USB_PERMISSION" />
+    <uses-feature android:name="android.hardware.usb.accessory" />
+
+
+// in application -> activity = your main activity -> 
+   <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+
+
+// in device filter.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <usb-device vendor-id="1155" product-id="22336" /> <!-- 1155 (0x0483), 22336 (0x5740) -->
+</resources>
+
+
+you can get those values from your stm32 ide cube
