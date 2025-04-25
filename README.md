@@ -1,4 +1,4 @@
-# UsbCommWithSTM32
+# USB Communication With STM32 Using Android and Java as programming language
 Android Usb Communication with STM32 Virtual Board using Android Studio with Java
 
 This code will allow you to use comm with no need to 3rd party libraries, just native methodologies used
